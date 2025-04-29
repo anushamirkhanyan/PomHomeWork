@@ -2,7 +2,9 @@ class BaseClass {
 elements = {
 }
 constants = {
-url: 'https://demoblaze.com/'
+url: 'https://demoblaze.com/',
+urlSecond: 'https://demoblaze.com/index.html'
+
 }
 openPage(url){
     cy.visit(this.constants.url)
